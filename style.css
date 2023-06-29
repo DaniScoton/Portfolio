@@ -491,7 +491,7 @@ ul li.item-menu a .icon>i {
 
 }
 
-@media (max-width: 1310px) and (min-width: 1000px) {
+@media (max-width: 1310px){
     .btn-git {
         display: none;
     }
@@ -501,7 +501,15 @@ ul li.item-menu a .icon>i {
     }
 }
 
-@media (max-width: 1000px) and (min-width: 850px){
+@media (max-width: 1000px){
+
+    ul li.item-menu a .icon>i {
+         font-size: 15px;
+    }
+        
+    ul li.item-menu a .text-link{
+        font-size: 15px;
+    }
 
     .btn-pro {
         font-size: 15px;
@@ -523,9 +531,24 @@ ul li.item-menu a .icon>i {
         padding-left: 0px;
     }
 
+    .div-git{
+        display: none;
+    }
+
+    .vazio{
+        display: none;
+    }
+
+    .titulo-titulo{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
 }
 
-@media (max-width: 850px) and (min-width: 500px) {
+@media (max-width: 850px){
 
     .apresentação {
         font-size: 40px;
@@ -551,9 +574,62 @@ ul li.item-menu a .icon>i {
     .div-sobre-mim p {
         padding-left: 0px;
     }
+
+    .div-git{
+        display: none;
+    }
+
+    .vazio{
+        display: none;
+    }
+
+    .titulo-titulo{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box-content h2{
+        font-size: 20px;
+    }
+
+    .text-link{
+        font-size: 15px;
+    }
+
+    .box-content img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .minhas{
+        font-size: 35px;
+    }
+
+    .txt-redes{
+        font-size: 35px;
+    }
+
+    #nome-rede{
+        font-size: 25px;
+    }
+
 }
 
-@media (max-width: 500px) and (min-width: 320px) {
+@media (max-width: 500px){
+
+    nav.menu-lateral{
+        height: 8vh;
+    }
+
+    ul li.item-menu a .icon>i {
+        font-size: 10px;
+   }
+       
+   ul li.item-menu a .text-link{
+       font-size: 12px;
+   }
 
     .apresentação {
         font-size: 25px;
@@ -567,8 +643,37 @@ ul li.item-menu a .icon>i {
         font-size: 10px;
     }
 
+    .sobre{
+        font-size: 35px;
+    }
+
+    .mim{
+        font-size: 35px;
+    }
+
     .btn-pro {
         font-size: 12px;
+    }
+
+    .box{
+        width: 5px;
+    }
+
+    .box-content h2{
+        font-size: 20px;
+    }
+
+    .box-content img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .links-projetos{
+        justify-content: center;
+    }
+
+    .text-link{
+        font-size: 18px;
     }
 
     .div-sobre-mim p{
@@ -593,13 +698,40 @@ ul li.item-menu a .icon>i {
         font-size: 37px;
     }
 
+    .minhas{
+        font-size: 37px;
+    }
+
+    .txt-redes{
+        font-size: 37px;
+    }
+
+    #nome-rede{
+        font-size: 15px;
+    }
+
     .div-footer{
         font-size: 12px;
     }
 
+    .div-git{
+        display: none;
+    }
+
+    .vazio{
+        display: none;
+    }
+
+    .titulo-titulo{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
 }
 
-@media (max-width: 320px) and (min-width: 300px) {
+@media (max-width: 320px){
 
     nav.menu-lateral {
         width: 100vw;
