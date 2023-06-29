@@ -509,7 +509,7 @@ ul li.item-menu a .icon>i {
 @media (min-width: 1000px) and (max-width: 1309px){
 
     nav.menu-lateral{
-        height: 70px;
+        height: 65px;
     }
 
     ul li.item-menu a .icon>i {
@@ -557,8 +557,7 @@ ul li.item-menu a .icon>i {
 
 }
 
-@media (min-width: 850px) and (max-width: 500px){
-
+@media (min-width: 500px) and (max-width: 850px){
 
     nav.menu-lateral{
         height: 30px;
@@ -634,7 +633,7 @@ ul li.item-menu a .icon>i {
 @media (min-width: 500px) and (max-width: 998px){
 
     nav.menu-lateral{
-        height: 80px;
+        height: 50px;
     }
 
     #btn-expandir{
