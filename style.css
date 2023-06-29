@@ -395,7 +395,7 @@ ul li.item-menu a .icon>i {
 
 /*responsividade*/
 
-@media (max-width: 1550px) {
+@media (max-width: 1550px){
 
     .corpo {
         width: 100vw;
@@ -431,7 +431,7 @@ ul li.item-menu a .icon>i {
 
     nav.menu-lateral.expandir {
         width: 100vw;
-        height: 53vh;
+        height: 100vh;
         border-radius: 0 0 5px 5px;
         transition: .5s;
     }
@@ -476,11 +476,9 @@ ul li.item-menu a .icon>i {
         opacity: 1;
     }
     
-    ul li.item-menu a .icon>i {
+    ul li.item-menu a .icon > i {
         font-size: 30px;
     }
-
-    /*sobre mim*/
 
     .img-sobre-mim {
         display: none;
@@ -493,7 +491,7 @@ ul li.item-menu a .icon>i {
 
 }
 
-@media (max-width: 1310px) {
+@media (max-width: 1310px) and (min-width: 1000px) {
     .btn-git {
         display: none;
     }
@@ -501,11 +499,14 @@ ul li.item-menu a .icon>i {
     .div-git {
         background-color: #302f2f;
     }
-
-
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1000px) and (min-width: 850px){
+
+    .btn-pro {
+        font-size: 15px;
+    }
+
     .redes {
         flex-direction: column;
     }
@@ -517,9 +518,14 @@ ul li.item-menu a .icon>i {
     .links {
         width: 80vw;
     }
+
+    .div-sobre-mim p {
+        padding-left: 0px;
+    }
+
 }
 
-@media (max-width: 850px) {
+@media (max-width: 850px) and (min-width: 500px) {
 
     .apresentação {
         font-size: 40px;
@@ -537,9 +543,17 @@ ul li.item-menu a .icon>i {
     .btn-pro {
         font-size: 20px;
     }
+    
+    .mim {
+        margin-left: 10px;
+    }
+
+    .div-sobre-mim p {
+        padding-left: 0px;
+    }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 500px) and (min-width: 320px) {
 
     .apresentação {
         font-size: 25px;
@@ -561,6 +575,14 @@ ul li.item-menu a .icon>i {
         font-size: 10px;
     }
 
+    .mim {
+        margin-left: 10px;
+    }
+
+    .div-sobre-mim p {
+        padding-left: 0px;
+    }
+
     .projetos{
         font-size: 37px;
         margin-right: 10px;
@@ -577,7 +599,7 @@ ul li.item-menu a .icon>i {
 
 }
 
-@media (max-width: 300px) {
+@media (max-width: 320px) and (min-width: 300px) {
 
     nav.menu-lateral {
         width: 100vw;
