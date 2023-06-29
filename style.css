@@ -557,7 +557,7 @@ ul li.item-menu a .icon>i {
 
 }
 
-@media (min-width: 850px) and (max-width: 999px){
+@media (min-width: 850px) and (max-width: 500px){
 
 
     nav.menu-lateral{
@@ -671,6 +671,10 @@ ul li.item-menu a .icon>i {
 
     .mim{
         font-size: 35px;
+    }
+
+    .div-sobre-mim p {
+        padding-left: 0px;
     }
 
     .btn-pro {
@@ -797,6 +801,7 @@ ul li.item-menu a .icon>i {
 
     .div-sobre-mim p{
         font-size: 10px;
+        padding-left: 0px;
     }
 
     .projetos{
