@@ -159,7 +159,7 @@ ul li.item-menu a .icon>i {
 /*sobre mim*/
 
 #tudo-sobre-mim {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -192,7 +192,7 @@ ul li.item-menu a .icon>i {
 
 .div-sobre-mim {
     width: 40vw;
-    height: 80vh;
+    min-height: 80vh;
 }
 
 .div-sobre-mim p {
@@ -256,16 +256,16 @@ ul li.item-menu a .icon>i {
 
 .links-projetos {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     align-items: center;
     gap: 1.5rem;
-    width: 90%;
+    width: 100%;
 }
 
 .box {
     text-align: center;
     min-height: 250px;
-    min-width: 350px;
+    min-width: 300px;
     border: 3px solid #FF0077;
     border-radius: 10px;
     display: flex;
@@ -406,7 +406,7 @@ ul li.item-menu a .icon>i {
         margin-left: unset;
     }
 
-    #home{
+    #home {
         height: 95vh;
         width: 100vw;
     }
@@ -421,31 +421,40 @@ ul li.item-menu a .icon>i {
 
     nav.menu-lateral {
         width: 100vw;
-        height: 5vh;
-        background-color: #FF0077;
-        box-shadow: 3px 0 0 #302f2f;
+        height: 8vh;
+        padding: 10px 0 10px 0;
         position: fixed;
         display: flex;
         flex-direction: column;
-        top: 0;
-        left: 0;
-        overflow: hidden;
         transition: .5s;
     }
 
     nav.menu-lateral.expandir {
         width: 100vw;
-        height: 80vh;
-        border-radius: 0 0 5px 5px;
-        top: 0;
+        height: 60vh;
+        border-radius: 0;
+        transition: .5s;
     }
 
+    #btn-expandir {
+        width: 100%;
+        padding: 10px;
+        margin-left: 7px;
+        margin-bottom: 15px;
+    }
+    
     ul li.ativo {
         background-color: #302f2f;
-        border-radius: 8px;
+        border-radius: 0;
         width: 100vw;
     }
-
+    
+    ul li.item-menu:hover {
+        background-color: #302f2f;
+        border-radius: 0;
+        width: 100vw;
+    }
+    
     ul li.item-menu a {
         color: #000;
         text-decoration: none;
@@ -455,115 +464,100 @@ ul li.item-menu a .icon>i {
         margin-bottom: 20px;
         margin-left: 10px;
     }
-
+    
     ul li.item-menu a .text-link {
         margin-left: 70px;
         transition: .5s;
         opacity: 0;
     }
-
+    
     nav.menu-lateral.expandir .text-link {
         margin-left: 40px;
         opacity: 1;
     }
-
+    
     ul li.item-menu a .icon>i {
         font-size: 30px;
     }
 
+    /*sobre mim*/
+
     .img-sobre-mim {
         display: none;
     }
-/*ARRUMAR
-    #tudo-sobre-mim{
-        border: 2px solid red;
-        height: 95vh;
-        width: 100vw;
-        padding: unset;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
 
-    .texto-sobre-mim{
-        border: 2px solid blueviolet;
+    .div-sobre-mim {
         width: 90vw;
-        max-height: 70vh;
+        min-height: 80vh;
     }
 
-    .div-sobre-mim p {
-        padding-left: unset;
-        text-align: center;
-    }
-*/
 }
 
 @media (max-width: 1310px) {
-    .btn-git{
+    .btn-git {
         display: none;
     }
 
-    .div-git{
+    .div-git {
         background-color: #302f2f;
     }
 }
 
-@media (max-width: 1000px){
-    .redes{
+@media (max-width: 1000px) {
+    .redes {
         flex-direction: column;
     }
 
-    .redes a{
+    .redes a {
         margin-bottom: 25px;
     }
 
-    .links{
+    .links {
         width: 80vw;
     }
 }
 
-@media (max-width: 850px){
+@media (max-width: 850px) {
 
     .apresentação {
         font-size: 40px;
         color: #fff;
     }
-    
+
     .nome {
         font-size: 65px;
     }
-    
+
     .estudante {
         font-size: 20px;
     }
-    
+
     .btn-pro {
         font-size: 20px;
     }
 }
 
-@media (max-width: 500px){
+@media (max-width: 500px) {
 
     .apresentação {
         font-size: 25px;
     }
-    
+
     .nome {
         font-size: 40px;
     }
-    
+
     .estudante {
         font-size: 10px;
     }
-    
+
     .btn-pro {
         font-size: 12px;
     }
 }
 
-@media (max-width: 365px){
+@media (max-width: 300px) {
     nav.menu-lateral {
         width: 100vw;
+    }
 }
-}
-
