@@ -395,7 +395,7 @@ ul li.item-menu a .icon>i {
 
 /*responsividade*/
 
-@media (max-width: 1350px){
+@media (max-width: 1500px){
 
     .corpo {
         width: 100vw;
