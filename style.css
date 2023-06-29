@@ -421,7 +421,7 @@ ul li.item-menu a .icon>i {
 
     nav.menu-lateral {
         width: 100vw;
-        height: 8vh;
+        height: 30px;
         padding: 10px 0 10px 0;
         position: fixed;
         display: flex;
@@ -549,6 +549,10 @@ ul li.item-menu a .icon>i {
 }
 
 @media (max-width: 850px){
+
+    nav.menu-lateral{
+        height: 65px;
+    }
 
     .apresentação {
         font-size: 40px;
