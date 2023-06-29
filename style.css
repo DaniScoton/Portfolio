@@ -619,6 +619,10 @@ ul li.item-menu a .icon>i {
 
 @media (max-width: 500px){
 
+    #btn-expandir{
+        margin-bottom: 5px;
+    }
+
     nav.menu-lateral{
         height: 8vh;
     }
