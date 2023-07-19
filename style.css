@@ -20,6 +20,17 @@ body {
     margin-left: 5vw;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #FF0077;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+
 /*menu*/
 
 nav.menu-lateral {
